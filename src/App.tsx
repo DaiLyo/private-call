@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 import { io, Socket } from 'socket.io-client'
 import './App.css'
 
-const SIGNALING_SERVER = 'http://localhost:3001'
+const SIGNALING_SERVER = 'https://private-call-70fa.onrender.com'
 
 type RoomMode = 'home' | 'owner-login' | 'create' | 'join'
 
